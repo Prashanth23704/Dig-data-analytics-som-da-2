@@ -1,7 +1,7 @@
 # customer_details_segregation 
 Code to perform clustering using self organizing maps on retail customer data.
 
-#code description :(clustering)
+# code description :(clustering)
 This code processes customer product data, trains a Self-Organizing Map (SOM), and then performs hierarchical clustering on the SOM neuron weights. It aims to segment customers into clusters based on the available data. Here's a breakdown of each section:
 
 ### 1. **Data Reading and Cleaning:**
@@ -62,7 +62,7 @@ matplotlib.pylab: For plotting the SOM map and dendrogram.
    - **`matplotlib.pylab`**: For plotting the SOM map and dendrogram.
 
 
-#code description:(minisom)
+# code description:(minisom)
 This code implements a **Self-Organizing Map (SOM)**, a type of unsupervised neural network used for clustering and dimensionality reduction. SOM maps high-dimensional data to a lower-dimensional space (usually 2D) while maintaining the topological structure of the data. Here’s a detailed explanation of the code:
 
 ### **Key Components:**
@@ -145,7 +145,7 @@ SOMs are used for tasks like:
 
 In this code, SOM’s potential applications include clustering and visualizing complex datasets, like customer segmentation in marketing or anomaly detection in sensor networks.
 
-#ABOUT THE DATASET:
+# ABOUT THE DATASET:
 This dataset appears to capture retail transactions at various stores, with each row representing a unique transaction. Below is a breakdown of each column:
 
 1. **customerID**: A unique identifier for each customer. It helps to track multiple transactions made by the same customer.
@@ -179,7 +179,7 @@ This dataset appears to capture retail transactions at various stores, with each
 
 This dataset can be used for various analyses, such as understanding customer behavior, tracking sales trends by location, age, and gender, or analyzing the effectiveness of promotional campaigns.
 
-HOW TO RUN THE FILE:
+# HOW TO RUN THE FILE:
 How to Execute the SOM Implementation
 Prerequisites: Before running the SOM implementation, you will need to install the required Python libraries.
 Steps to Run the Program:
@@ -191,12 +191,11 @@ Navigate to the directory where the script and dataset are stored.
 Run the Python script:
 python som_clustering.py
 
-Software Requirements:
-
+# Software Requirements:
 Python 3.x: Ensure you have Python installed. The script is built using Python and several popular libraries.
 Libraries: The necessary Python libraries include numpy, pandas, scikit-learn, minisom, scipy, and matplotlib. All these can be installed using pip.
 
-Hardware Requirements:
+# Hardware Requirements:
 
 Processor: Multi-core processor (Intel i5 or better).
 Memory (RAM): At least 8GB of RAM. For large datasets (millions of rows), 16GB or more is recommended.
