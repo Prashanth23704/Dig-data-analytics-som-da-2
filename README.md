@@ -145,5 +145,63 @@ SOMs are used for tasks like:
 
 In this code, SOM’s potential applications include clustering and visualizing complex datasets, like customer segmentation in marketing or anomaly detection in sensor networks.
 
+ABOUT THE DATASET:
+This dataset appears to capture retail transactions at various stores, with each row representing a unique transaction. Below is a breakdown of each column:
+
+1. **customerID**: A unique identifier for each customer. It helps to track multiple transactions made by the same customer.
+
+2. **Gender**: The customer's gender. It is coded numerically, where:
+   - 0 might represent "Not specified",
+   - 1 might represent "Male", 
+   - 2 might represent "Female".
+
+3. **PinCode**: The postal code where the customer resides. This is useful for geographic analysis of customer behavior.
+
+4. **store_code**: A code representing the specific store where the transaction took place.
+
+5. **till_no**: The till or cash register number where the transaction was processed.
+
+6. **transaction_number_by_till**: A unique transaction identifier at the specific till. This likely resets daily or periodically.
+
+7. **promo_code**: The code of any promotion applied during the transaction. If no promotion was used, it is marked as 0.
+
+8. **product_code**: The unique identifier for the product purchased in the transaction.
+
+9. **sale_price_after_promo**: The final sale price of the product after applying any promotions or discounts.
+
+10. **discountUsed**: The amount of discount applied during the transaction.
+
+11. **Age**: The age of the customer at the time of the transaction.
+
+12. **Week**: The week number of the year when the transaction took place (ranging from 1 to 52).
+
+13. **Month**: The month of the year when the transaction occurred (from 1 to 12).
+
+This dataset can be used for various analyses, such as understanding customer behavior, tracking sales trends by location, age, and gender, or analyzing the effectiveness of promotional campaigns.
+
+HOW TO RUN THE FILE:
+How to Execute the SOM Implementation
+Prerequisites: Before running the SOM implementation, you will need to install the required Python libraries.
+Steps to Run the Program:
+
+Download the dataset (for example, customer_data.csv).
+Save the dataset in the same directory as the Python script (som_clustering.py).
+Open a terminal or command prompt.
+Navigate to the directory where the script and dataset are stored.
+Run the Python script:
+python som_clustering.py
+
+Software Requirements:
+
+Python 3.x: Ensure you have Python installed. The script is built using Python and several popular libraries.
+Libraries: The necessary Python libraries include numpy, pandas, scikit-learn, minisom, scipy, and matplotlib. All these can be installed using pip.
+
+Hardware Requirements:
+
+Processor: Multi-core processor (Intel i5 or better).
+Memory (RAM): At least 8GB of RAM. For large datasets (millions of rows), 16GB or more is recommended.
+Storage: Sufficient storage space for the dataset. Approximately 1-2 GB of space may be required, depending on the dataset size.
+GPU (Optional): A GPU is not required, but can speed up processing for larger datasets.
+Operating System: The code runs on Windows, Linux, or macOS.
 
 
