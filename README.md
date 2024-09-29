@@ -1,4 +1,4 @@
-# customer_details_segregation 
+# customer_details_separation
 Code to perform clustering using self organizing maps on retail customer data.
 
 # code description :(clustering)
